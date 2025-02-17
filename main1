@@ -480,3 +480,4 @@ else:
               '\n' + 'талант : ' + 'физ.данные' +
               '\n' + 'общий рейтинг : ' + str(int(pace + shoot + pas + defend + dribble + physics) // 6) +
               '\n' + 'позиция : ' + 'универсал')
+input()

@@ -185,7 +185,7 @@ while n > 0:
         n -= 1
         print('Следующий матч')
 if pace and shoot > pas and dribble and defend and physics  :
-    if index_talent_sposobnosti == 1:
+    if index_talent_sposobnosti == 0:
         print('''Статистика вашего игрока за сезон:
                        Имя: ''' + name_footballer +
               '\n' + str(pace) + ' скорость' +
@@ -197,7 +197,7 @@ if pace and shoot > pas and dribble and defend and physics  :
               '\n' + 'талант : ' + 'скорость'
               '\n' + 'общий рейтинг : ' + str(int(pace + shoot + pas + defend + dribble + physics) // 6) +
               '\n' + 'позиция : ' + 'нападающий')
-    elif index_talent_sposobnosti == 2:
+    elif index_talent_sposobnosti == 1:
         print('''Статистика вашего игрока за сезон:
                        Имя: ''' + name_footballer +
               '\n' + str(pace) + ' скорость' +
@@ -210,7 +210,7 @@ if pace and shoot > pas and dribble and defend and physics  :
               '\n' + 'общий рейтинг : ' + str(int(pace + shoot + pas + defend + dribble + physics) // 6) +
               '\n' + 'позиция : ' + 'нападающий')
 
-    elif index_talent_sposobnosti == 3:
+    elif index_talent_sposobnosti == 2:
         print('''Статистика вашего игрока за сезон:
                        Имя: ''' + name_footballer +
               '\n' + str(pace) + ' скорость' +
@@ -222,7 +222,7 @@ if pace and shoot > pas and dribble and defend and physics  :
               '\n' + 'талант : ' + 'пас' +
               '\n' + 'общий рейтинг : ' + str(int(pace + shoot + pas + defend + dribble + physics) // 6) +
               '\n' + 'позиция : ' + 'нападающий')
-    elif index_talent_sposobnosti == 4:
+    elif index_talent_sposobnosti == 3:
         print('''Статистика вашего игрока за сезон:
                        Имя: ''' + name_footballer +
               '\n' + str(pace) + ' скорость' +
@@ -234,7 +234,7 @@ if pace and shoot > pas and dribble and defend and physics  :
               '\n' + 'талант : ' + 'дриблинг' +
               '\n' + 'общий рейтинг : ' + str(int(pace + shoot + pas + defend + dribble + physics) // 6) +
               '\n' + 'позиция : ' + 'нападающий')
-    elif index_talent_sposobnosti == 5:
+    elif index_talent_sposobnosti == 4:
         print('''Статистика вашего игрока за сезон:
                        Имя: ''' + name_footballer +
               '\n' + str(pace) + ' скорость' +
@@ -246,7 +246,7 @@ if pace and shoot > pas and dribble and defend and physics  :
               '\n' + 'талант : ' + 'оборона' +
               '\n' + 'общий рейтинг : ' + str(int(pace + shoot + pas + defend + dribble + physics) // 6) +
               '\n' + 'позиция : ' + 'нападающий')
-    elif index_talent_sposobnosti == 6:
+    elif index_talent_sposobnosti == 5:
         print('''Статистика вашего игрока за сезон:
                        Имя: ''' + name_footballer +
               '\n' + str(pace) + ' скорость' +
@@ -259,7 +259,7 @@ if pace and shoot > pas and dribble and defend and physics  :
               '\n' + 'общий рейтинг : ' + str(int(pace + shoot + pas + defend + dribble + physics) // 6) +
               '\n' + 'позиция : ' + 'нападающий')
 elif pas and dribble > defend and pace and shoot and physics :
-    if index_talent_sposobnosti == 1:
+    if index_talent_sposobnosti == 0:
         print('''Статистика вашего игрока за сезон:
                        Имя: ''' + name_footballer +
               '\n' + str(pace) + ' скорость' +
@@ -271,7 +271,7 @@ elif pas and dribble > defend and pace and shoot and physics :
               '\n' + 'талант : ' + 'скорость'
               '\n' + 'общий рейтинг : ' + str(int(pace + shoot + pas + defend + dribble + physics) // 6) +
               '\n' + 'позиция : ' + 'полузащитник')
-    elif index_talent_sposobnosti == 2:
+    elif index_talent_sposobnosti == 1:
         print('''Статистика вашего игрока за сезон:
                        Имя: ''' + name_footballer +
               '\n' + str(pace) + ' скорость' +
@@ -284,7 +284,7 @@ elif pas and dribble > defend and pace and shoot and physics :
               '\n' + 'общий рейтинг : ' + str(int(pace + shoot + pas + defend + dribble + physics) // 6) +
               '\n' + 'позиция : ' + 'полузащитник')
 
-    elif index_talent_sposobnosti == 3:
+    elif index_talent_sposobnosti == 2:
         print('''Статистика вашего игрока за сезон:
                        Имя: ''' + name_footballer +
               '\n' + str(pace) + ' скорость' +
@@ -296,7 +296,7 @@ elif pas and dribble > defend and pace and shoot and physics :
               '\n' + 'талант : ' + 'пас' +
               '\n' + 'общий рейтинг : ' + str(int(pace + shoot + pas + defend + dribble + physics) // 6) +
               '\n' + 'позиция : ' + 'полузащитник')
-    elif index_talent_sposobnosti == 4:
+    elif index_talent_sposobnosti == 3:
         print('''Статистика вашего игрока за сезон:
                        Имя: ''' + name_footballer +
               '\n' + str(pace) + ' скорость' +
@@ -308,7 +308,7 @@ elif pas and dribble > defend and pace and shoot and physics :
               '\n' + 'талант : ' + 'дриблинг' +
               '\n' + 'общий рейтинг : ' + str(int(pace + shoot + pas + defend + dribble + physics) // 6) +
               '\n' + 'позиция : ' + 'полузащитник')
-    elif index_talent_sposobnosti == 5:
+    elif index_talent_sposobnosti == 4:
         print('''Статистика вашего игрока за сезон:
                        Имя: ''' + name_footballer +
               '\n' + str(pace) + ' скорость' +
@@ -320,7 +320,7 @@ elif pas and dribble > defend and pace and shoot and physics :
               '\n' + 'талант : ' + 'оборона' +
               '\n' + 'общий рейтинг : ' + str(int(pace + shoot + pas + defend + dribble + physics) // 6) +
               '\n' + 'позиция : ' + 'полузащитник')
-    elif index_talent_sposobnosti == 6:
+    elif index_talent_sposobnosti == 5:
         print('''Статистика вашего игрока за сезон:
                        Имя: ''' + name_footballer +
               '\n' + str(pace) + ' скорость' +
@@ -333,7 +333,7 @@ elif pas and dribble > defend and pace and shoot and physics :
               '\n' + 'общий рейтинг : ' + str(int(pace + shoot + pas + defend + dribble + physics) // 6) +
               '\n' + 'позиция : ' + 'полузащитник')
 elif defend and physics > dribble and shoot and pace and pas :
-    if index_talent_sposobnosti == 1:
+    if index_talent_sposobnosti == 0:
         print('''Статистика вашего игрока за сезон:
                        Имя: ''' + name_footballer +
               '\n' + str(pace) + ' скорость' +
@@ -345,7 +345,7 @@ elif defend and physics > dribble and shoot and pace and pas :
               '\n' + 'талант : ' + 'скорость'
               '\n' + 'общий рейтинг : ' + str(int(pace + shoot + pas + defend + dribble + physics) // 6) +
               '\n' + 'позиция : ' + 'защитник')
-    elif index_talent_sposobnosti == 2:
+    elif index_talent_sposobnosti == 1:
         print('''Статистика вашего игрока за сезон:
                        Имя: ''' + name_footballer +
               '\n' + str(pace) + ' скорость' +
@@ -358,7 +358,7 @@ elif defend and physics > dribble and shoot and pace and pas :
               '\n' + 'общий рейтинг : ' + str(int(pace + shoot + pas + defend + dribble + physics) // 6) +
               '\n' + 'позиция : ' + 'защитник')
 
-    elif index_talent_sposobnosti == 3:
+    elif index_talent_sposobnosti == 2:
         print('''Статистика вашего игрока за сезон:
                        Имя: ''' + name_footballer +
               '\n' + str(pace) + ' скорость' +
@@ -370,7 +370,7 @@ elif defend and physics > dribble and shoot and pace and pas :
               '\n' + 'талант : ' + 'пас' +
               '\n' + 'общий рейтинг : ' + str(int(pace + shoot + pas + defend + dribble + physics) // 6) +
               '\n' + 'позиция : ' + 'защитник')
-    elif index_talent_sposobnosti == 4:
+    elif index_talent_sposobnosti == 3:
         print('''Статистика вашего игрока за сезон:
                        Имя: ''' + name_footballer +
               '\n' + str(pace) + ' скорость' +
@@ -382,7 +382,7 @@ elif defend and physics > dribble and shoot and pace and pas :
               '\n' + 'талант : ' + 'дриблинг' +
               '\n' + 'общий рейтинг : ' + str(int(pace + shoot + pas + defend + dribble + physics) // 6) +
               '\n' + 'позиция : ' + 'защитник')
-    elif index_talent_sposobnosti == 5:
+    elif index_talent_sposobnosti == 4:
         print('''Статистика вашего игрока за сезон:
                        Имя: ''' + name_footballer +
               '\n' + str(pace) + ' скорость' +
@@ -394,7 +394,7 @@ elif defend and physics > dribble and shoot and pace and pas :
               '\n' + 'талант : ' + 'оборона' +
               '\n' + 'общий рейтинг : ' + str(int(pace + shoot + pas + defend + dribble + physics) // 6) +
               '\n' + 'позиция : ' + 'защитник')
-    elif index_talent_sposobnosti == 6:
+    elif index_talent_sposobnosti == 5:
         print('''Статистика вашего игрока за сезон:
                        Имя: ''' + name_footballer +
               '\n' + str(pace) + ' скорость' +
@@ -407,7 +407,7 @@ elif defend and physics > dribble and shoot and pace and pas :
               '\n' + 'общий рейтинг : ' + str(int(pace + shoot + pas + defend + dribble + physics) // 6) +
               '\n' + 'позиция : ' + 'защитник')
 else:
-    if index_talent_sposobnosti == 1:
+    if index_talent_sposobnosti == 0:
         print('''Статистика вашего игрока за сезон:
                        Имя: ''' + name_footballer +
               '\n' + str(pace) + ' скорость' +
@@ -419,7 +419,7 @@ else:
               '\n' + 'талант : ' + 'скорость'
               '\n' + 'общий рейтинг : ' + str(int(pace + shoot + pas + defend + dribble + physics) // 6) +
               '\n' + 'позиция : ' + 'универсал')
-    elif index_talent_sposobnosti == 2:
+    elif index_talent_sposobnosti == 1:
         print('''Статистика вашего игрока за сезон:
                        Имя: ''' + name_footballer +
               '\n' + str(pace) + ' скорость' +
@@ -432,7 +432,7 @@ else:
               '\n' + 'общий рейтинг : ' + str(int(pace + shoot + pas + defend + dribble + physics) // 6) +
               '\n' + 'позиция : ' + 'универсал')
 
-    elif index_talent_sposobnosti == 3:
+    elif index_talent_sposobnosti == 2:
         print('''Статистика вашего игрока за сезон:
                        Имя: ''' + name_footballer +
               '\n' + str(pace) + ' скорость' +
@@ -444,7 +444,7 @@ else:
               '\n' + 'талант : ' + 'пас' +
               '\n' + 'общий рейтинг : ' + str(int(pace + shoot + pas + defend + dribble + physics) // 6) +
               '\n' + 'позиция : ' + 'универсал')
-    elif index_talent_sposobnosti == 4:
+    elif index_talent_sposobnosti == 3:
         print('''Статистика вашего игрока за сезон:
                        Имя: ''' + name_footballer +
               '\n' + str(pace) + ' скорость' +
@@ -456,7 +456,7 @@ else:
               '\n' + 'талант : ' + 'дриблинг' +
               '\n' + 'общий рейтинг : ' + str(int(pace + shoot + pas + defend + dribble + physics) // 6) +
               '\n' + 'позиция : ' + 'универсал')
-    elif index_talent_sposobnosti == 5:
+    elif index_talent_sposobnosti == 4:
         print('''Статистика вашего игрока за сезон:
                        Имя: ''' + name_footballer +
               '\n' + str(pace) + ' скорость' +
@@ -468,7 +468,7 @@ else:
               '\n' + 'талант : ' + 'оборона' +
               '\n' + 'общий рейтинг : ' + str(int(pace + shoot + pas + defend + dribble + physics) // 6) +
               '\n' + 'позиция : ' + 'универсал')
-    elif index_talent_sposobnosti == 6:
+    elif index_talent_sposobnosti == 5:
         print('''Статистика вашего игрока за сезон:
                        Имя: ''' + name_footballer +
               '\n' + str(pace) + ' скорость' +
